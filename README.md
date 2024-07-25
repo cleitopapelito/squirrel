@@ -8,12 +8,12 @@ Docker (this project was created with Docker version 27.0.3) https://docs.docker
 1. Rename the 'env_template' file to '.env.'
 
 2. Inside the '.env' file, configure the following parameters to specify where the services of the Squirrel App and the database will be allocated:
-DB_NAME=squirrel_db
-DB_USERNAME=postgres
-DB_PASSWORD=postgres
-DB_HOST=postgres
-DB_PORT=5432
-SQUIRREL_PORT=8080
+- DB_NAME=squirrel_db
+- DB_USERNAME=postgres
+- DB_PASSWORD=postgres
+- DB_HOST=postgres
+- DB_PORT=5432
+- SQUIRREL_PORT=8080
 
 ### Running the application
 1. In the project folder execute:
