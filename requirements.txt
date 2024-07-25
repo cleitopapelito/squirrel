@@ -1,0 +1,4 @@
+pyspark # library for the apache spark
+psycopg2-binary #DB conexion
+sqlalchemy #DB ORM
+pandas #Data Manipulation
